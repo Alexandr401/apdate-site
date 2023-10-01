@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Эльбрус Кино</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-icon">
+        <img src="./images/icon.svg" alt="icon" class="page-menu-home" />
+      </div>
+      <nav class="nav-menu">
+        <ul class="menu-ul">
+          <li class="menu-li">
+            <a href="#moe-kino" class="page-link active-link">мое&nbspкино</a>
+          </li>
+          <li class="menu-li">
+            <a href="#shop" class="page-link">магазин</a>
+          </li>
+          <li class="menu-li">
+            <a href="#basket" class="page-link">покупки</a>
+          </li>
+        </ul>
+        <svg
+        class="link-search"
+        viewBox="0 0 22 23"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          
+          d="M15.5455 9.11273C15.5455 13.182 12.2554 16.3855 8.27273 16.3855C4.20347 16.3855 1 13.0954 1 9.11273C1 5.04346 4.29005 1.84 8.27273 1.84C12.2554 1.84 15.5455 5.13004 15.5455 9.11273Z M13.0362 14.6538L20.3089 21.84"
+        />
+      </svg>
+      </nav>
+      <div class="nav-profil">
+        <img
+          src="./images/icon_man.svg"
+          alt="profil"
+          class="page-menu-profil"
+        />
+      </div>
+      <div class="hamburger">
+        <nav class="nav-ham">
+          <ul class='nav-bar'>
+              <input type='checkbox' id='check' />
+              <span class="menu-ham">
+                <li class="menu-li-ham">
+                  <a href="#moe-kino" class="page-link-ham">мое&nbspкино</a>
+                </li>
+                <li class="menu-li-ham">
+                  <a href="#shop" class="page-link-ham">магазин</a>
+                </li>
+                <li class="menu-li-ham">
+                  <a href="#basket" class="page-link-ham">покупки</a>
+                </li>
+                  <label for="check" class="close-menu-ham"></label>
+              </span>
+              <label for="check" class="open-menu-ham"></label>
+          </ul>
+      </nav>
+        </div>
+    </header>
+    <main class="container">
+      <section class="section-page">
+        <div class="page-title">
+          <h2 class="title-block">Новое в подписке</h2>
+          <svg
+            class="strelka-open"
+            viewBox="0 0 10 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.272 22.2L2.648 23.208L9.536 11.88L2.648 0.576L0.272 1.584L6.56 11.88L0.272 22.2Z"
+              fill="#FFBC5B"
+            />
+          </svg>
+        </div>
+        <div class="page-content">
+          <svg
+          class="strelka-pred-new strelka"
+          style="rotate:180deg"
+          viewBox="0 0 10 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.272 22.2L2.648 23.208L9.536 11.88L2.648 0.576L0.272 1.584L6.56 11.88L0.272 22.2Z"
+          />
+        </svg>
+        <div class="slider">
+          <div class="slider-block">
+            <div class="muvie-content muvie-new">
+              <div class="block-img" ocenka="8.4">
+                <img
+                  src="./images/kino/null-pacient.svg"
+                  alt="Нулевой пациент"
+                  class="img-muvie"
+                />
+              </div>
+              <div class="title-muvie">
+                <p class="title">Нулевой пациент</p>
+                <p class="sub-title-muvie">2022, драма, детектив</p>
+              </div>
+            </div>
+            <div class="muvie-content muvie-new">
+              <div class="block-img" ocenka="8.3">
+                <img
+                  src="./images/kino/major.svg"
+                  alt="Мажор"
+                  class="img-muvie"
+                />
+              </div>
+              <div class="title-muvie">
+                <p class="title">Мажор</p>
+                <p class="sub-title-muvie">2014, драма, криминал</p>
+              </div>
+            </div>
+            <div class="muvie-content muvie-new">
+              <div class="block-img" ocenka="5.2">
+                <img
+                  src="./images/kino/flewbek.svg"
+                  alt="Флешбэк"
+                  class="img-muvie"
+                />
+              </div>
+              <div class="title-muvie">
+                <p class="title">Флешбэк</p>
+                <p class="sub-title-muvie">2022, боевик, триллер</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          <svg
+            class="strelka-ewe-new strelka"
+            viewBox="0 0 10 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.272 22.2L2.648 23.208L9.536 11.88L2.648 0.576L0.272 1.584L6.56 11.88L0.272 22.2Z"
+            />
+          </svg>
+        </div>
+      </section>
+      <section class="section-page">
+        <div class="page-title">
+          <h2 class="title-block">Рекомендуем посмотреть</h2>
+          <svg
+            class="strelka-open"
+            width="10"
+            height="24"
+            viewBox="0 0 10 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.272 22.2L2.648 23.208L9.536 11.88L2.648 0.576L0.272 1.584L6.56 11.88L0.272 22.2Z"
+              fill="#FFBC5B"
+            />
+          </svg>
+        </div>
+        <div class="page-content">
+          <div class="page-content">
+            <svg
+            class="strelka-pred-req strelka"
+            style="rotate:180deg"
+            viewBox="0 0 10 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.272 22.2L2.648 23.208L9.536 11.88L2.648 0.576L0.272 1.584L6.56 11.88L0.272 22.2Z"
+            />
+          </svg>
+          <div class="slider">
+            <div class="slider-block-req">
+              <div class="muvie-content muvie-req">
+                <div class="block-img" ocenka="8.7">
+                  <img
+                    src="./images/kino/vse-vsezde-i-srazy.svg"
+                    alt="Всё, везде и сразу"
+                    class="img-muvie"
+                  />
+                </div>
+                <div class="title-muvie">
+                  <p class="title">Всё, везде и сразу</p>
+                  <p class="sub-title-muvie">2021, фантастика, комедия</p>
+                </div>
+              </div>
+              <div class="muvie-content muvie-req">
+                <div class="block-img" ocenka="6.3">
+                  <img
+                    src="./images/kino/trigger.svg"
+                    alt="Триггер"
+                    class="img-muvie"
+                  />
+                </div>
+                <div class="title-muvie">
+                  <p class="title">Триггер</p>
+                  <p class="sub-title-muvie">2020, драма</p>
+                </div>
+              </div>
+              <div class="muvie-content muvie-req">
+                <div class="block-img" ocenka="6.3">
+                  <img
+                    src="./images/kino/psty4is-v-mou-dver.svg"
+                    alt="Постучись в мою дверь"
+                    class="img-muvie"
+                  />
+                </div>
+                <div class="title-muvie">
+                  <p class="title">Постучись в мою дверь</p>
+                  <p class="sub-title-muvie">2020, мелодрама, комедия</p>
+                </div>
+              </div>
+            </div>
+          </div>
+            <svg
+              class="strelka-ewe-req strelka"
+              viewBox="0 0 10 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.272 22.2L2.648 23.208L9.536 11.88L2.648 0.576L0.272 1.584L6.56 11.88L0.272 22.2Z"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./javascript/slider.js"></script>
+  </body>
+</html>
