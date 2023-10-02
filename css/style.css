@@ -6,6 +6,10 @@
   font-family: "IBM Plex Mono", monospace;
 }
 
+body{
+  background: #000;
+}
+
 header {
   background: #4520ab;
   display: flex;
@@ -144,6 +148,9 @@ padding: 20px 100px 10px 100px;
   border-bottom: 3px solid #ffbc5b;
 }
 
+.open-menu{
+}
+
 .open-menu-ham{
   display: block;
   cursor: pointer;
@@ -248,7 +255,7 @@ display: none;
 
 .slider-block, .slider-block-req{
   display: flex;
-  justify-content: space-between;
+
 }
 
 .muvie-content{
@@ -270,6 +277,16 @@ display: none;
   margin-top: 10px;
   margin-left: 10px;
   z-index: 1;
+}
+
+.img-new{
+  width: 322px;
+  height: 182px;
+}
+
+.img-req{
+  width: 322px;
+  height: 485px;
 }
 
 .img-muvie {
@@ -350,7 +367,7 @@ header {
 }
 
 .slider-block, .slider-block-req{
-  margin: 20px;
+  margin: 10px;
   position: relative;
   left: 0;
   transition: all ease 1s;
@@ -391,12 +408,103 @@ margin-right: 30px;
 
 @media (max-width: 540px){
 .container{
-  padding: 60px 20px;
+  padding: 60px 30px;
+}
+.page-menu-home {
+  width: 100px;
+  height: 34.27px;
+}
+.title-block {
+  font-size: 28px;
+}
+.strelka-open {
+  display: none;
+}
+}
+@media (max-width: 520px){
+.slider {
+  overflow: hidden;
+  max-width: 320px;
+}
+  .img-new{
+  width: 297px;
+  height: 168px;
+}
+.img-req{
+  width: 297px;
+  height: 447px;
 }
 }
 
-@media (max-width: 510px){
+@media (max-width: 500px){
+.title-block {
+  font-size: 26px;
+}
 .container{
-  padding: 60px 10px;
+  padding: 40px 20px;
+}
+}
+
+@media (max-width: 480px){
+.img-new{
+  width: 287px;
+  height: 158px;
+}
+.img-req{
+  width: 287px;
+  height: 437px;
+}
+.slider {
+  overflow: hidden;
+  max-width: 320px;
+}
+.strelka{
+  width: 30px;
+  height: 40px;
+  margin-top: -70px;
+}
+}
+
+@media (max-width: 425px){
+.nav-menu{
+justify-content: right;
+margin-right: 15px;
+}
+.title-block {
+  font-size: 24px;
+}
+.page-title {
+  margin-bottom: 20px;
+}
+.block-img:before {
+  padding: 3px 12px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.slider {
+  max-width: 270px;
+}
+.img-new{
+  width: 247px;
+}
+.img-req{
+  width: 247px;
+}
+}
+
+@media (max-width: 390px){
+.title-block {
+  font-size: 20px;
+}
+.slider {
+  max-width: 250px;
+}
+.img-new{
+  width: 217px;
+  height: 118px;
+}
+.img-req{
+  width: 217px;
+  height: 317px;
 }
 }
